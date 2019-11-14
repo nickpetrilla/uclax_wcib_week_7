@@ -31,8 +31,14 @@ body {
   background-color: skyblue;
   font-size: 2rem; }
 
+#birth-result-side img {
+  width: 50%; }
+
 #death-result-side {
   height: 500px;
   color: #F5F5F5;
   background-color: black;
   font-size: 2rem; }
+
+#death-result-side img {
+  width: 50%; }
