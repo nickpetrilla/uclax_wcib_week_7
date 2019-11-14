@@ -18,27 +18,44 @@
   </head>
 
   <body>
+    <div class="container">
+      <div class="row">
+        <div id="pick-side" class="col">
+          <h2>Welcome to the Interactive E-Card</h2>
+          <p>Please enter your name below and pick the event you'd like to celebrate!<p>
+            <input id="your-name" class="form-control" type="text" placeholder="Your Name">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadioBirth" value="option1">
+              <label class="form-check-label" for="inlineRadioBirth">Today is my birthday!</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadioDeath" value="option2">
+              <label class="form-check-label" for="inlineRadioDeath">I died. Today is my funeral...</label>
+            </div>
+            <button id="submit-button" type="button" class="btn btn-outline-success">Submit</button>
+        </div>
+        <div id="default-result-side" class="col">
+          <div id="intro-text">
+            <p>We can't wait to suprise you!</p>
+          </div>
+        </div>
 
-    <h1>Week 7, Part 1</h1>
+        <div id="birth-result-side" class="col">
+          <div>
+            <h1>Whoooo Hooooo!</h1>
+            <p>Happy Birthday ++NAME++!</p>
+          </div>
+        </div>
 
-    <div class="board">
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-			<div class="square"></div>
-			<div class="square alt"></div>
-		</div>
+        <div id="death-result-side" class="col">
+          <div>
+            <h1>Oh NOOOOO!</h1>
+            <p>++NAME++, we're so sorry that you died!</p>
+          </div>
+        </div>
 
-		<p>
-      <img src="images/kitten.png" id="my_image" class="animal">
-    </p>
-
-		<button id="my_button" class="btn btn-primary">Button</button>
-
+      </div>
+    </div>
 	</body>
 
 </html>

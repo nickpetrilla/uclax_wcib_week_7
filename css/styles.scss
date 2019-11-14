@@ -1,30 +1,45 @@
 body {
 	font-family: sans-serif;
 	margin: 20px;
+	margin-top: 60px;
+}
 
-  .board {
-  	background: yellow;
-  	width: 300px;
-  	height: 300px;
-    margin-bottom: 20px;
-  }
+#pick-side {
+	padding-top: 75px;
+	height: 500px;
+	background-color: white;
+	border-style: solid;
+	border-width: thin;
+}
 
-  .square {
-  	width: 100px;
-  	height: 100px;
-  	float: left;
+#default-result-side {
+	height: 500px;
+	color: green;
+	background-color: #DCDCDC;
+	font-size: 2rem;
+}
 
-    &.red {
-    	background: red;
-    }
+#intro-text {
+	position: absolute;
+	top: 10%;
+	left:10%;
+}
 
-    &.green {
-    	background: green;
-    }
-  }
+#submit-button {
+	float: right;
+	margin: 15px;
+}
 
-  .animal {
-    width: 100px;
-    height: auto;
-  }
+#birth-result-side{
+	height: 500px;
+	color: yellow;
+	background-color: skyblue;
+	font-size: 2rem;
+}
+
+#death-result-side{
+	height: 500px;
+	color: #F5F5F5;
+	background-color: black;
+	font-size: 2rem;
 }
